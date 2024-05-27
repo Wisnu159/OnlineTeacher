@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>|| Login</title>
+    <link rel="stylesheet" href="login.css" />
+    <style>
+        body {
+            background-color: #fff;
+            color: #010101;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .login-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .login-form {
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .login-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .login-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #fc5185;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-form button:hover {
+            background-color: #010101;
+        }
+
+        .login-form p {
+            margin-top: 10px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .login-form a {
+            color: #010101;
+            text-decoration: none;
+        }
+
+        .login-form a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-form">
+            <h2>Sign Up</h2>
+            <form action="loginan.html" method="get">
+                <input type="text" placeholder="Email" name="email" required>
+                <input type="text" placeholder="Username" name="username" required>
+                <input type="password" placeholder="Password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+    </div>
+</body>
+</html>
